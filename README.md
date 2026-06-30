@@ -251,10 +251,12 @@ Custom-Trained CNN vs. Using Transfer Learning
 
 ### Initial Training / Validation Accuracy
 Custom-trained CNN：≈ 10% ~ 15%
+
 Using Transfer Learning：≈ 40% ~ 45%
 ### Underlying Mechanism
 
 Custom-trained CNN：Random Weight Initialization
+
 Using Transfer Learning：Loaded with weights='imagenet', only the final classification
 layers (Dense layers) were trained, while the earlier
 convolutional layers remained frozen.
@@ -270,6 +272,7 @@ overcome the high initial learning costs associated with training from scratch.
 
 ### Final Validation Loss
 Custom-trained CNN：≈1.3
+
 Using Transfer Learning：≈2.15
 
 Due to the limited amount of information acquired, the custom-trained model
@@ -296,6 +299,7 @@ overfitting.
 
 ### Final Validation Accuracy
 Custom-trained CNN： 66.87%
+
 Using Transfer Learning：66.25%
 
 Insufficient data, high feature overlap, mismatched distributions between the
