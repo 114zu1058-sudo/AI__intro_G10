@@ -101,45 +101,53 @@ Key Python Libraries Used:
 Below is the directory blueprint of our "SEE-SEE-U" project repository, outlining
 the exact organization of our final dataset, model weights, and execution scripts:
 
- • AI 導論 final pics/ (Dataset Directory)
+ + AI 導論 final pics/ (Dataset Directory)
 Contains our self-collected campus image data. It includes exactly 800 image
 samples balanced evenly across 8 NCCU library and center categories:
 
-o NCCU Main Library
-o NCCU Dah Hsian Library
-o NCCU Social Sciences Library
-o NCCU Commerce Library
-o NCCU Law Library
-o NCCU Research Center and Innovation Incubation Center
-o NCCU College of Communication Library
-o NCCU Art Culture Center
-• models/ (Model Weights Directory)
+  o NCCU Main Library
+  
+  o NCCU Dah Hsian Library
+  
+  o NCCU Social Sciences Library
+  
+  o NCCU Commerce Library
+  
+  o NCCU Law Library
+  
+  o NCCU Research Center and Innovation Incubation Center
+  
+  o NCCU College of Communication Library
+  
+  o NCCU Art Culture Center
++ models/ (Model Weights Directory)
 Stores our deployment-ready deep learning model weights file named
 model.v2.h5. This file contains the optimized mathematical parameters of our
 fine-tuned ResNet50V2 network, which utilizes Transfer Learning to leverage
 deep feature knowledge from pre-trained image databases.
-• src/ (Core Source Code Directory)
++ src/ (Core Source Code Directory)
 Contains the modular Python pipeline scripts that run our application:
-o data_preprocessing.py: Manages data ingestion pipelines via Keras
-ImageDataGenerator with a 0.2 validation split, automatically
-reshaping image tensors to 224* 224* 3 and executing target
 
-normalization.
-o train_model.py: Constructs the sequential top layers over the frozen
+  o data_preprocessing.py: Manages data ingestion pipelines via Keras
+ImageDataGenerator with a 0.2 validation split, automatically
+reshaping image tensors to 224* 224* 3 and executing target normalization.
+
+  o train_model.py: Constructs the sequential top layers over the frozen
 ResNet50V2 base, compiles the architecture using the Adam optimizer
 alongside categorical_crossentropy loss, and executes the 10-epoch
 training performance loop.
-o app.py: Houses the interactive deployment and predictive inference
+
+  o app.py: Houses the interactive deployment and predictive inference
 engine. It feeds uploaded images into our saved model network,
 computes the highest target index score, filters predictions using a strict
 classification threshold, and automatically triggers embedded Google
 Maps navigation links.
 
-• requirements.txt (Environment Configuration)
++ requirements.txt (Environment Configuration)
 A standard reference file specifying mandatory module dependencies and
 library framework versions (TensorFlow, Keras, NumPy, IPython Display, etc.)
 required to safely reproduce the project environment.
-• README.md (Repository Documentation)
++ README.md (Repository Documentation)
 The main markdown-formatted user manual that displays our comprehensive
 project overview, data distributions, training diagnostics, and deployment setup
 guidelines.
