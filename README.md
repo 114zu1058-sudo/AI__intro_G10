@@ -100,9 +100,11 @@ Key Python Libraries Used:
 ## File Structure
 Below is the directory blueprint of our "SEE-SEE-U" project repository, outlining
 the exact organization of our final dataset, model weights, and execution scripts:
-• AI 導論 final pics/ (Dataset Directory)
+
+ • AI 導論 final pics/ (Dataset Directory)
 Contains our self-collected campus image data. It includes exactly 800 image
 samples balanced evenly across 8 NCCU library and center categories:
+
 o NCCU Main Library
 o NCCU Dah Hsian Library
 o NCCU Social Sciences Library
