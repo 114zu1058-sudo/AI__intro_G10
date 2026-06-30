@@ -81,8 +81,6 @@ TensorFlow 2.x (Keras API)
 The system relies on several computer vision and data processing libraries.
 Key Python Libraries Used:
 
-+ 
-
 
 
 
