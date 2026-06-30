@@ -7,8 +7,22 @@ This GitHub repository offers a template specifically designed to teach students
 [Enter the title of your project]
 
 ## Project Description
+### Background
+In the era of social media, people frequently share captivating photos of their daily lives,
+study spaces, or travels. However, social media users often encounter several pain
+points when trying to identify the locations in these photos:
++ ### Hidden Locations:
+  
+Influencers often gatekeep locations, requiring followers to direct message them just to get a place's name.
++ ### Unfamiliar Recommendations:
 
-[Enter a brief description of your project, including the data you used and the analytical methods you applied. Be sure to provide context for your project and explain why it is important.]
+When seeing a recommendation from a follower they are not personally close with, users may feel awkward asking for the location directly.
++ ### Locating Friends:
+
+Students often wonder where their peers are studying on campus to join them, but tracking down the exact campus building or library can be inefficient
+
+Our survey of 41 samples revealed that 65.9% of people have experienced the desire to know a specific location after seeing a photo shared by others. Among various categories, libraries showed a significantly high frequency of interest, with 63.4% of respondents stating that a search scope limited to National Chengchi University(NCCU)libraries would be highly helpful.
+Therefore, to address this practical need, our team decided to kickstart this project by focusing on the campus libraries and learning centers of National Chengchi University as our primary scope and pilot study.
 
 ## Getting Started
 
