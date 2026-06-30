@@ -152,6 +152,7 @@ A standard reference file specifying mandatory module dependencies and
 library framework versions (TensorFlow, Keras, NumPy, IPython Display, etc.)
 required to safely reproduce the project environment.
 + README.md (Repository Documentation)
+
 The main markdown-formatted user manual that displays our comprehensive
 project overview, data distributions, training diagnostics, and deployment setup
 guidelines.
@@ -162,6 +163,7 @@ preprocessed by src/data_preprocessing.py. These formatted arrays are passed int
 src/train_model.py to train the top classification layers attached to the ResNet50V2
 Transfer Learning core. Once the training cycle successfully concludes, the resulting
 optimal neural weights are saved into models/model.v2.h5.
+
 Finally, our live deployment framework loads this file. When a user submits a
 campus photo, the system evaluates the top classification probability. If this score
 meets or exceeds our 0.75 confidence threshold, it displays the confirmed location
