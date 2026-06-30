@@ -102,6 +102,7 @@ Below is the directory blueprint of our "SEE-SEE-U" project repository, outlinin
 the exact organization of our final dataset, model weights, and execution scripts:
 
  + AI 導論 final pics/ (Dataset Directory)
+
 Contains our self-collected campus image data. It includes exactly 800 image
 samples balanced evenly across 8 NCCU library and center categories:
 
@@ -121,11 +122,13 @@ samples balanced evenly across 8 NCCU library and center categories:
   
   o NCCU Art Culture Center
 + models/ (Model Weights Directory)
+
 Stores our deployment-ready deep learning model weights file named
 model.v2.h5. This file contains the optimized mathematical parameters of our
 fine-tuned ResNet50V2 network, which utilizes Transfer Learning to leverage
 deep feature knowledge from pre-trained image databases.
 + src/ (Core Source Code Directory)
+
 Contains the modular Python pipeline scripts that run our application:
 
   o data_preprocessing.py: Manages data ingestion pipelines via Keras
@@ -144,6 +147,7 @@ classification threshold, and automatically triggers embedded Google
 Maps navigation links.
 
 + requirements.txt (Environment Configuration)
+
 A standard reference file specifying mandatory module dependencies and
 library framework versions (TensorFlow, Keras, NumPy, IPython Display, etc.)
 required to safely reproduce the project environment.
