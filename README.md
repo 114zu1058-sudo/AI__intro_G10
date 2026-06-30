@@ -354,20 +354,8 @@ probability, which can lead to misidentification despite the 0.75 threshold. To
 prevent incorrect navigation from random uploads, we recommend adding an
 "irrelevant object" category or integrating an object detection model to verify
 the presence of a building before classification.
-+ Increasing Photo Diversity: To improve the CNN model's stability, we
-recommend expanding our dataset by intentionally collecting campus photos
-taken under different weather conditions (such as rainy or cloudy days) and at
-various times of day (such as evening or night). This will effectively enhance
-
-the model's adaptability to complex outdoor lighting environments.
-+ Protecting User Privacy: To ensure readiness for future applications, we
-
-recommend integrating an automatic blurring algorithm into the image pre-
-processing stage. Upon receiving a photo, the system should automatically
-
-detect and obscure any human faces or license plates, extracting features solely
-from the building structure. This will provide navigation convenience while
-maintaining strict compliance with privacy protection principles.
++ Increasing Photo Diversity: To improve the CNN model's stability, we　recommend expanding our dataset by intentionally collecting campus photos　taken under different weather conditions (such as rainy or cloudy days) and at　various times of day (such as evening or night). This will effectively enhance　the model's adaptability to complex outdoor lighting environments.
++ Protecting User Privacy: To ensure readiness for future applications, we　recommend integrating an automatic blurring algorithm into the image pre-processing stage. Upon receiving a photo, the system should automatically　detect and obscure any human faces or license plates, extracting features solely　from the building structure. This will provide navigation convenience while　maintaining strict compliance with privacy protection principles.
 
 ### Future Outlook
 Based on our current implementation results, we have also mapped out a future
@@ -441,7 +429,7 @@ June 30, 2026, from https://developers.google.com/maps
 ### 
 ## Google drive Photo File Link
 https://drive.google.com/drive/folders/1UcrroXVrhC7R1kZcwIgkAGQJEp7MAh7L?usp=sharing
-## Ｃomplete project PDF file
+## complete project PDF file
 https://drive.google.com/file/d/1DfIfJtzFRet-67-R5A-hD7I12JiVxg_F/view?usp=drivesdk
 ## colab link
 AI Intro Final project:Transfer Learning：https://colab.research.google.com/drive/1_N_OVPg5NmtZn3bY7VcmGSTvpmP2VHVy?usp=sharing
