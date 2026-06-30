@@ -394,8 +394,6 @@ Analyzed raw evaluation scores against practical campus environment demands. Int
 
 ## Acknowledgments
 
-## Acknowledgments
-
 The successful completion of this project would not have been possible without
 the guidance and support of many individuals. First and foremost, we would like to express our sincere gratitude to the professor of the Introduction to Artificial Intelligence course at National Chengchi University for providing professional insights and inspiration regarding our model architecture design.
 
