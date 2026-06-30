@@ -27,9 +27,15 @@ This GitHub repository offers a template specifically designed to teach students
 [Provide a summary of your findings and conclusions, including any recommendations or implications for future research. Be sure to explain how your results address your research question or problem statement.]
 
 ## Contributors
+114zu1001 王紫君
 
-[List the contributors to your project and describe their roles and responsibilities.]
+114zu1009 黎芯妤
 
+114zu1015 汪宜家
+
+114zu1025 趙芯悅
+
+114zu1058 楊恆慈
 ## Acknowledgments
 
 [Thank any individuals or organizations who provided support or assistance during your project, including funding sources or data providers.]
